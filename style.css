@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+header#main_header h1 {
+    background-color: #333333;
+    width: 100%;
+}
+
+#main_header h1 {
+    text-align: center;
+    color: white;
+    padding: 3px 0 3px 0;
+}
+
+#profile {
+    margin: 10px;
+    padding: 10px;
+}
+
+#profile div {
+    display: block;
+}
+
+#profileInfo {
+    width: 48%;
+    float: left;
+}
+
+#profileText {
+    width: 190px;
+    float: right;
+}
+
+.profileImg {
+    float: left;
+}
+
+#contactInfo {
+    width: 290px;
+    float: left;
+    margin-left: 100px;
+}
+
+#contactInfo ul {
+    margin-left: 30px;
+}

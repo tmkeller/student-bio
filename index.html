@@ -2,28 +2,46 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
 
         <title>Student Bio</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Student Bio</h1>
-        <h2>Tim Keller</h2>
-        <img src="timkeller.jpg" style="width: 10%; height: 10%;" alt="Tim Keller profile photo">
-        <p>Tim was a web developer with a singing side hustle. Then he became a professional singer with a web development side hustle. Now he's going back to the first one. COVID.</p>
-        <h2>Contact info</h2>
-        <ul>
-            <li>
-                <strong>Email: </strong>
-                <a href="mailto:timothy.m.keller@gmail.com">timothy.m.keller@gmail.com</a>
-            </li>
-            <li>
-                <strong>Github: </strong>
-                <a href="https://github.com/tmkeller" target="_blank">tmkeller on Github</a>
-            </li>
-            <li>
-                <strong>Portfolio: </strong>
-                <a href="#">Coming Soon!</a>
-            </li>
-        </ul>
+        <header id="main_header">
+            <h1>Student Bio</h1>
+        </header>
+
+        <div id="profile">
+
+            <div id="profileInfo">
+                <h2>Tim Keller</h2>
+                <img src="timkeller.jpg" class="profileImg" style="width: 200; height: 200;" alt="Tim Keller profile photo">
+                <div id="profileText">
+                    <p>Tim was a web developer with a singing side hustle. Then he became a professional singer with a web development side hustle. Now he's going back to the first one. COVID.</p>
+                </div>
+            </div>
+        
+            <div id="contactInfo">
+                <h2>Contact info</h2>
+                <ul>
+                    <li>
+                        <strong>Email: </strong>
+                        <a href="mailto:timothy.m.keller@gmail.com">timothy.m.keller@gmail.com</a>
+                    </li>
+                    <li>
+                        <strong>Github: </strong>
+                        <a href="https://github.com/tmkeller" target="_blank">tmkeller on Github</a>
+                    </li>
+                    <li>
+                        <strong>Portfolio: </strong>
+                        <a href="#">Coming Soon!</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
     </body>
 </html>
