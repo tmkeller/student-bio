@@ -1,22 +1,31 @@
 * {
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+}
+
+h1 {
+    color: #eee;
+    background-color: #333333;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0 5px 0;
 }
 
 h2 {
-    margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 5px;
 }
 
-header#main_header h1 {
+header {
     background-color: #333333;
-    width: 100%;
 }
 
 #main_header h1 {
     text-align: center;
     color: white;
-    padding: 3px 0 3px 0;
 }
 
 #profile {
